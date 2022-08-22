@@ -18,6 +18,7 @@ public class Main {
         garry.comparisonStudents(draco);
 
         garry.print();
+        ron.print();
     }
 
 }
