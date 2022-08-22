@@ -1,3 +1,5 @@
+package task2;
+
 public class Slytherin extends Hogwarts {
     private int trick;
     private int determination;

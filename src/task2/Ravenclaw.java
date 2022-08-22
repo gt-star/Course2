@@ -1,3 +1,5 @@
+package task2;
+
 public class Ravenclaw extends Hogwarts {
     private int smart;
     private int wise;

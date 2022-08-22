@@ -1,3 +1,5 @@
+package task2;
+
 public abstract class Hogwarts {
     private String fullName;
     private int powerMagic;

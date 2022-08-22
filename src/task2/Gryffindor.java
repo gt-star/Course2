@@ -1,3 +1,5 @@
+package task2;
+
 public class Gryffindor extends Hogwarts {
     private int nobility;
     private int honor;

@@ -1,3 +1,7 @@
+package task2;
+
+import task2.Slytherin;
+
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
