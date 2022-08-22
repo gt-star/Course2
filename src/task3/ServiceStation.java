@@ -1,5 +1,4 @@
 package task3;
-
 public class ServiceStation implements IService {
     @Override
     public void check(Car car) {

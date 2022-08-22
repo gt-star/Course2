@@ -1,5 +1,4 @@
 package task3;
-
 public interface IPrintable {
      default void updateTyre() {
 

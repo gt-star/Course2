@@ -1,5 +1,4 @@
 package task3;
-
 public class Car implements IPrintable{
     private String modelName;
     private int wheelsCount;
@@ -8,11 +7,9 @@ public class Car implements IPrintable{
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
-
     public String getModelName() {
         return modelName;
     }
-
     private void setModelName(String modelName) {
         this.modelName = modelName;
     }
