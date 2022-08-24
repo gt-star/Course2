@@ -1,10 +1,11 @@
 package task3;
-public interface IPrintable {
+public interface Printable {
      default void updateTyre() {
 
      }
 
      default void checkEngine() {
+
 
      }
 
