@@ -30,7 +30,6 @@ public abstract class TransportVehicle extends ServiceStation {
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
-    @Override
-    public void check(TransportVehicle transport) {
+    public void check() {
     }
 }
