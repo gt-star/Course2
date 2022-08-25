@@ -1,9 +1,8 @@
 package task3;
-public class ServiceStation extends TransportVehicle implements Service {
+public class ServiceStation {
 
-    @Override
-    public void check(Service service) {
-        service.check(service);
+    public void check(TransportVehicle transport) {
+        transport.check(transport);
     }
 }
 

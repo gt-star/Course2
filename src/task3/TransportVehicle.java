@@ -1,6 +1,6 @@
 package task3;
 
-public class TransportVehicle implements Printable{
+public abstract class TransportVehicle extends ServiceStation {
     private String modelName;
     private int wheelsCount;
 
@@ -26,9 +26,11 @@ public class TransportVehicle implements Printable{
     private void setWheelsCount(int wheelsCount) {
         this.wheelsCount = wheelsCount;
     }
-    @Override
+
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
-
+    @Override
+    public void check(TransportVehicle transport) {
+    }
 }
